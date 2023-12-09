@@ -563,7 +563,7 @@ if __name__ == "__main__":
     # Load Instructions
     ########################################
     try:
-        ins = open('instructions1.txt')
+        ins = open('instructions.txt')
     except BaseException:
         print('Cannot find the set of instructions！')
         exit(-1)
