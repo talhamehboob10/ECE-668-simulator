@@ -9,7 +9,7 @@
 2. **Repository Contents:**
    - Contains:
      - `tomasulo_simulation.py` file
-     - `instruction.txt` file
+     - `instructions.txt` file
 
 3. **Run the Simulation:**
    - Execute the `tomasulo_simulation.py` file using the command:
