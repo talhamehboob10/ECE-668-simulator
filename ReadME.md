@@ -1,16 +1,30 @@
-Requirements: 
- * Python
- * TKinter (Default in MacBook)
+## Requirements:
+- Python
+- TKinter (Default on MacBook)
 
-How to Run: 
-  * Clone the repository and have all the files in the same directory
-  * The repo consists of 'tomasulo_simulation.py' file and 'instruction.txt' file
-  * Run the 'tomasulo_simulation.py' file by running the command 'python tomasulo_simulation.py'
-  * When you run this file, the program would ask you for multiple inputs as we have modular functional units and modular delays functionalities in our code
-  * Press 'd' for default values of delays for the instructions
-  * Press 'c' for custom values of delays for the instructions and specify the delay values for each instruction
-  * Press 'd' for default number of functional units for different operations in the reservation table
-  * Press 'c' for the custom values of number of functional units for different operations in the reservation table
-  * After you enter this informtation, the GUI will open
-  * Press 'Step-by-step' to run the instructions in a sequential cycle and observe the output on the instruction, reservation and register tables
-  * Press 'Autoexe' for auto execution which goes through the instructions in an automated fashion
+## How to Run:
+1. **Clone the Repository:**
+   - Ensure all files are in the same directory after cloning.
+
+2. **Repository Contents:**
+   - Contains:
+     - `tomasulo_simulation.py` file
+     - `instruction.txt` file
+
+3. **Run the Simulation:**
+   - Execute the `tomasulo_simulation.py` file using the command:
+     ```
+     python tomasulo_simulation.py
+     ```
+
+4. **Input and Configuration:**
+   - The program prompts for multiple inputs:
+     - For default instruction delays, press 'd'.
+     - For custom instruction delays, press 'c' and specify values for each instruction.
+     - For default functional units, press 'd'.
+     - For custom functional units, press 'c'.
+
+5. **Graphical User Interface (GUI):**
+   - Upon providing necessary inputs, the GUI opens.
+   - Use 'Step-by-step' for sequential cycle execution, observing output on tables.
+   - Use 'Autoexe' for automated instruction execution.
